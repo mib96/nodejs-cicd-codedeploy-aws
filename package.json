@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-cicd-codedeploy-aws",
+  "version": "1.0.0",
+  "description": "Deploy NodeJs App to AWS EC2 linux server with AWS CodeDeploy and Github Action",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js > app.log 2> error.log &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mib96/nodejs-cicd-codedeploy-aws.git"
+  },
+  "keywords": [
+    "aws",
+    "aws",
+    "codedeploy",
+    "aws",
+    "pipeline",
+    "cicd",
+    "ci",
+    "cd",
+    "ci-cd",
+    "deploy",
+    "devops",
+    "nodejs",
+    "express.js"
+  ],
+  "author": "ScaleUp SaaS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mib96/nodejs-cicd-codedeploy-aws/issues"
+  },
+  "homepage": "https://github.com/mib96/nodejs-cicd-codedeploy-aws#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
